@@ -1,0 +1,14 @@
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        unordered_map<int,int> mpp; 
+        for(int i = 0; i < nums.size(); i++) {
+            int remaining = target - nums[i];
+            if(mp.count(remaining)) {
+                return {mp[remaining], i};
+            }
+            mp[nums[i]] = i;
+        }        
+        return {};
+    }
+};
