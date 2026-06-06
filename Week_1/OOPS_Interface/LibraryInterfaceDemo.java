@@ -1,5 +1,6 @@
 public class LibraryInterfaceDemo {
     public static void main(String[] args) {
+        
         KidUser kid = new KidUser();
 
         kid.age = 10;
@@ -9,10 +10,9 @@ public class LibraryInterfaceDemo {
         kid.bookType = "Kids";
         kid.requestBook();
         kid.bookType = "Fiction";
-        kid.requestBook();
-      
+        kid.requestBook();      
         System.out.println();
-      
+        
         AdultUser adult = new AdultUser();
 
         adult.age = 5;
