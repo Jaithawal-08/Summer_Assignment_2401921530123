@@ -11,6 +11,7 @@ public class LibraryInterfaceDemo {
         kid.requestBook();
         kid.bookType = "Fiction";
         kid.requestBook();      
+        
         System.out.println();
         
         AdultUser adult = new AdultUser();
